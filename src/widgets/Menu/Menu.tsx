@@ -302,32 +302,32 @@ const Menu: React.FC<NavProps> = ({
         <MobileOnlyOverlay show={isPushed} onClick={() => setIsPushed(false)} role="presentation" />
       </BodyWrapper>
       <MenuWrapper>
-          <StyledLinkTag href="https://discord.gg/EjtYmpSPVJ" target="_blank">
+          <StyledLinkTag href="https://discord.com/invite/dDvAWdtU" target="_blank">
             <div className="menu-icons">
-                <img className="menu-pic" alt="discord" src="https://apksshare.com/wp-content/uploads/2021/06/Discord-Talk-Video-Chat-Hang-Out-with-Friends-APK-MOD-Download-77.6-Stable.png"/> <span className="menu-text">DISCORD</span>
+                <img className="menu-pic" alt="discord" src="https://www.freepnglogos.com/uploads/discord-logo-png/discord-u0130ndir-oyuncular-u00e7in-sesli-u0130leti-u015fim-u0131-u015fma-5.png"/> <span className="menu-text">DISCORD</span>
             </div>
           </StyledLinkTag>
-          <StyledLinkTag href="https://t.me/thedragonslairfarm" target="_blank">
+          <StyledLinkTag href="https://t.me/OpSyrup" target="_blank">
             <div className="menu-icons">
-                <img className="menu-pic" alt="telegram" src="https://image.flaticon.com/icons/png/512/124/124019.png"/> <span className="menu-text">TELEGRAM</span>
+                <img className="menu-pic" alt="telegram" src="https://cdn3.iconfinder.com/data/icons/social-media-chamfered-corner/154/telegram-512.png"/> <span className="menu-text">TELEGRAM</span>
             </div>
           </StyledLinkTag>
-          <StyledLinkTag href="https://twitter.com/DRGNCRYPTOGAMIN" target="_blank">
+          <StyledLinkTag href="https://twitter.com/opsyrup" target="_blank">
             <div className="menu-icons">
                 <img className="menu-pic" alt="twitter" src="https://seeklogo.com/images/T/twitter-icon-square-logo-108D17D373-seeklogo.com.png"/> <span className="menu-text">TWITTER</span>
             </div>
           </StyledLinkTag>
-          <StyledLinkTag href="https://docs.thedragonslair.farm/" target="_blank">
+          <StyledLinkTag href="https://medium.com/@opsyrupfinance/introduction-opsyrupprotocol-953a3b6f7b7b" target="_blank">
             <div className="menu-icons">
               <img className="menu-pic" alt="docs" src="https://cdn2.iconfinder.com/data/icons/metro-ui-dock/512/Doc_-_Google_Docs.png"/> <span className="menu-text">DOCS</span>
             </div>
           </StyledLinkTag>
-          <StyledLinkTag href="https://dex.guru/token/0x88c090496125b751b4e3ce4d3fdb8e47dd079c57-avalanche" target="_blank">
+          <StyledLinkTag href="https://dexscreener.com/opbnb/fourdex" target="_blank">
             <div className="menu-icons">
               <img className="menu-pic" alt="charts" src="https://d1nhio0ox7pgb.cloudfront.net/_img/o_collection_png/green_dark_grey/512x512/plain/chart_candlestick.png"/><span className="menu-text">CHART</span>
             </div>
           </StyledLinkTag>
-          <StyledLinkTag href="https://www.traderjoexyz.com/#/trade?outputCurrency=0x88c090496125b751B4E3ce4d3FDB8E47DD079c57" target="_blank">
+          <StyledLinkTag href="https://fourdex.cz/en/swap" target="_blank">
             <div className="menu-icons">
                 <img className="menu-pic" alt="exchange" src="/images/menu/tjoe.png"/><span className="menu-text">EXCHANGE</span>
             </div>
