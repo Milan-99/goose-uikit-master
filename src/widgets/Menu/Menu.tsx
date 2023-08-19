@@ -251,7 +251,7 @@ const Menu: React.FC<NavProps> = ({
               <Link href="/" target="_blank"><img className="navImg" src='/images/egg/LogoTextNewWhite.png' alt="The Dragon's Lair"/></Link>
           </InfoBoxes>
           
-          <div className="badges">
+          {/* <div className="badges">
               <InfoBoxes>
                   <Link href="https://rugdoc.io/project/the-dragons-lair/" target="_blank"><img className="navImg" src="/images/badge/rugdoc-kyc.png" alt="rugdoc audit/kyc"/></Link>
               </InfoBoxes>
@@ -261,7 +261,7 @@ const Menu: React.FC<NavProps> = ({
               <InfoBoxes>
                   <Link href="https://tinydragon.games/" target="_blank"><img className="navImg tinyDragons" src="https://tinydragon.games/img/logo.png" alt="Tiny Dragons!"/></Link>
               </InfoBoxes>
-          </div>
+          </div> */}
             
        </DLInfoContainer>
         <InfoContainer>
@@ -332,11 +332,11 @@ const Menu: React.FC<NavProps> = ({
                 <img className="menu-pic" alt="exchange" src="/images/menu/tjoe.png"/><span className="menu-text">EXCHANGE</span>
             </div>
           </StyledLinkTag>
-          <StyledLinkTag href="https://vfat.tools/avax/dregg/" target="_blank">
+          {/* <StyledLinkTag href="https://vfat.tools/avax/dregg/" target="_blank">
             <div className="menu-icons">
                 <img className="menu-pic" alt="vfat" src="/images/menu/vfaticon.jpg"/><span className="menu-text">VFAT</span>
             </div>
-          </StyledLinkTag>
+          </StyledLinkTag> */}
       </MenuWrapper>
     </Wrapper>
   );

@@ -2666,7 +2666,7 @@ var InfoBoxes = styled__default['default'].div(templateObject_9 || (templateObje
 var MenuWrapper = styled__default['default'].div(templateObject_10 || (templateObject_10 = __makeTemplateObject(["\n  position: fixed;\n  background: #000000e8;\n  padding: 0;\n  text-align: center;\n  backdrop-filter: blur(3px);\n  display: flex;\n  grid-template-columns: repeat(6,1fr);\n  width: 100%;\n  bottom: 0;\n  z-index: 999;\n  align-items: center;\n  justify-items: center;\n  border-top: 1px solid #efcd52;\n"], ["\n  position: fixed;\n  background: #000000e8;\n  padding: 0;\n  text-align: center;\n  backdrop-filter: blur(3px);\n  display: flex;\n  grid-template-columns: repeat(6,1fr);\n  width: 100%;\n  bottom: 0;\n  z-index: 999;\n  align-items: center;\n  justify-items: center;\n  border-top: 1px solid #efcd52;\n"])));
 var StyledLinkTag = styled__default['default'].a(templateObject_11 || (templateObject_11 = __makeTemplateObject(["\n    display: grid;\n    text-align: center;\n    padding: 1px;\n    color: #fff;\n    font-size: 20px;\n    height: auto;\n    width: 100%;\n    justify-items: left;\n    text-align: center;\n    grid-template-columns: 1fr;\n    align-items: center;\n    justify-items: center;\n    padding: 10px;\n    transition: all 200ms linear;\n\n    &:hover {\n      background-color: rgba(97,105,182,0.45);\n    }\n\n    .menu-icons{\n      text-align: left;\n      display: grid;\n      grid-template-columns: 50px 1fr;\n      align-items: center;\n      width: 50%;\n    }\n\n    .menu-text{\n      margin-left: 10%;\n    }\n\n    .menu-pic {\n      border-radius: 4px;\n    }\n  \n    @media (max-width: 540px) {\n      .menu-icons {\n        display : block;\n        width: 73%;\n      }\n    }\n  \n    @media (max-width: 820px) {\n      .menu-text {\n        display : none;\n    }\n"], ["\n    display: grid;\n    text-align: center;\n    padding: 1px;\n    color: #fff;\n    font-size: 20px;\n    height: auto;\n    width: 100%;\n    justify-items: left;\n    text-align: center;\n    grid-template-columns: 1fr;\n    align-items: center;\n    justify-items: center;\n    padding: 10px;\n    transition: all 200ms linear;\n\n    &:hover {\n      background-color: rgba(97,105,182,0.45);\n    }\n\n    .menu-icons{\n      text-align: left;\n      display: grid;\n      grid-template-columns: 50px 1fr;\n      align-items: center;\n      width: 50%;\n    }\n\n    .menu-text{\n      margin-left: 10%;\n    }\n\n    .menu-pic {\n      border-radius: 4px;\n    }\n  \n    @media (max-width: 540px) {\n      .menu-icons {\n        display : block;\n        width: 73%;\n      }\n    }\n  \n    @media (max-width: 820px) {\n      .menu-text {\n        display : none;\n    }\n"])));
 var Menu = function (_a) {
-    var account = _a.account, login = _a.login, logout = _a.logout, isDark = _a.isDark, toggleTheme = _a.toggleTheme, langs = _a.langs, setLang = _a.setLang, currentLang = _a.currentLang, cakePriceUsd = _a.cakePriceUsd, links = _a.links, priceLink = _a.priceLink, profile = _a.profile, paladinAuditLink = _a.paladinAuditLink; _a.rugDocLink; _a.totalTVL; _a.circSupply; _a.marketCap; _a.eggPerBlock; var children = _a.children;
+    var account = _a.account, login = _a.login, logout = _a.logout, isDark = _a.isDark, toggleTheme = _a.toggleTheme, langs = _a.langs, setLang = _a.setLang, currentLang = _a.currentLang, cakePriceUsd = _a.cakePriceUsd, links = _a.links, priceLink = _a.priceLink, profile = _a.profile; _a.paladinAuditLink; _a.rugDocLink; _a.totalTVL; _a.circSupply; _a.marketCap; _a.eggPerBlock; var children = _a.children;
     var isXl = useMatchBreakpoints().isXl;
     var isMobile = isXl === false;
     var _b = React.useState(!isMobile), isPushed = _b[0], setIsPushed = _b[1];
@@ -2708,17 +2708,7 @@ var Menu = function (_a) {
             React__default['default'].createElement(DLInfoContainer, null,
                 React__default['default'].createElement(InfoBoxes, null,
                     React__default['default'].createElement(Link, { href: "/", target: "_blank" },
-                        React__default['default'].createElement("img", { className: "navImg", src: '/images/egg/LogoTextNewWhite.png', alt: "The Dragon's Lair" }))),
-                React__default['default'].createElement("div", { className: "badges" },
-                    React__default['default'].createElement(InfoBoxes, null,
-                        React__default['default'].createElement(Link, { href: "https://rugdoc.io/project/the-dragons-lair/", target: "_blank" },
-                            React__default['default'].createElement("img", { className: "navImg", src: "/images/badge/rugdoc-kyc.png", alt: "rugdoc audit/kyc" }))),
-                    React__default['default'].createElement(InfoBoxes, null,
-                        React__default['default'].createElement(Link, { href: paladinAuditLink, target: "_blank" },
-                            React__default['default'].createElement("img", { className: "navImg", src: "https://paladinsec.co/pld/assets/audited-by-paladin-standard.svg", alt: "paladin audit" }))),
-                    React__default['default'].createElement(InfoBoxes, null,
-                        React__default['default'].createElement(Link, { href: "https://tinydragon.games/", target: "_blank" },
-                            React__default['default'].createElement("img", { className: "navImg tinyDragons", src: "https://tinydragon.games/img/logo.png", alt: "Tiny Dragons!" }))))),
+                        React__default['default'].createElement("img", { className: "navImg", src: '/images/egg/LogoTextNewWhite.png', alt: "The Dragon's Lair" })))),
             React__default['default'].createElement(InfoContainer, null,
                 React__default['default'].createElement(InfoBoxes, null, cakePriceUsd ? (React__default['default'].createElement(PriceLink$1, { href: chartEx, target: "_blank" },
                     React__default['default'].createElement(Icon$v, { width: "42px", mr: "8px" }),
@@ -2758,11 +2748,7 @@ var Menu = function (_a) {
             React__default['default'].createElement(StyledLinkTag, { href: "https://www.traderjoexyz.com/#/trade?outputCurrency=0x88c090496125b751B4E3ce4d3FDB8E47DD079c57", target: "_blank" },
                 React__default['default'].createElement("div", { className: "menu-icons" },
                     React__default['default'].createElement("img", { className: "menu-pic", alt: "exchange", src: "/images/menu/tjoe.png" }),
-                    React__default['default'].createElement("span", { className: "menu-text" }, "EXCHANGE"))),
-            React__default['default'].createElement(StyledLinkTag, { href: "https://vfat.tools/avax/dregg/", target: "_blank" },
-                React__default['default'].createElement("div", { className: "menu-icons" },
-                    React__default['default'].createElement("img", { className: "menu-pic", alt: "vfat", src: "/images/menu/vfaticon.jpg" }),
-                    React__default['default'].createElement("span", { className: "menu-text" }, "VFAT"))))));
+                    React__default['default'].createElement("span", { className: "menu-text" }, "EXCHANGE"))))));
 };
 var templateObject_1$H, templateObject_2$f, templateObject_3$8, templateObject_4$3, templateObject_5$1, templateObject_6, templateObject_7, templateObject_8, templateObject_9, templateObject_10, templateObject_11;
 
