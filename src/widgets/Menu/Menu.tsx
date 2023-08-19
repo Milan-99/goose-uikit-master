@@ -17,7 +17,7 @@ import { Link } from "../../components/Link";
 const Wrapper = styled.div`
   position: relative;
   width: 100%;
-  background: #050e15 url('/images/dragon-background.mp4') no-repeat center center;
+  background: #050e15 url('/images/dragon-background.jpg') no-repeat center center;
   background-attachment: fixed;
   background-size:cover;
 `;
