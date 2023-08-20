@@ -332,11 +332,11 @@ const Menu: React.FC<NavProps> = ({
                 <img className="menu-pic" alt="exchange" src="/images/menu/tjoe.png"/><span className="menu-text">EXCHANGE</span>
             </div>
           </StyledLinkTag>
-          {/* <StyledLinkTag href="https://vfat.tools/avax/dregg/" target="_blank">
+          <StyledLinkTag href="https://presale.opsyrup.cc/#/ifos" target="_blank">
             <div className="menu-icons">
-                <img className="menu-pic" alt="vfat" src="/images/menu/vfaticon.jpg"/><span className="menu-text">VFAT</span>
+                <img className="menu-pic" alt="Presale" src="https://icon2.cleanpng.com/20180502/ggq/kisspng-computer-icons-eye-font-awesome-presale-5ae99c398212f0.4669696115252593215328.jpg"/><span className="menu-text">PRESALE</span>
             </div>
-          </StyledLinkTag> */}
+          </StyledLinkTag>
       </MenuWrapper>
     </Wrapper>
   );

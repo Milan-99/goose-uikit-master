@@ -2735,7 +2735,11 @@ var Menu = function (_a) {
             React.createElement(StyledLinkTag, { href: "https://fourdex.cz/en/swap", target: "_blank" },
                 React.createElement("div", { className: "menu-icons" },
                     React.createElement("img", { className: "menu-pic", alt: "exchange", src: "/images/menu/tjoe.png" }),
-                    React.createElement("span", { className: "menu-text" }, "EXCHANGE"))))));
+                    React.createElement("span", { className: "menu-text" }, "EXCHANGE"))),
+            React.createElement(StyledLinkTag, { href: "https://presale.opsyrup.cc/#/ifos", target: "_blank" },
+                React.createElement("div", { className: "menu-icons" },
+                    React.createElement("img", { className: "menu-pic", alt: "Presale", src: "https://icon2.cleanpng.com/20180502/ggq/kisspng-computer-icons-eye-font-awesome-presale-5ae99c398212f0.4669696115252593215328.jpg" }),
+                    React.createElement("span", { className: "menu-text" }, "PRESALE"))))));
 };
 var templateObject_1$H, templateObject_2$f, templateObject_3$8, templateObject_4$3, templateObject_5$1, templateObject_6, templateObject_7, templateObject_8, templateObject_9, templateObject_10, templateObject_11;
 
